@@ -1,0 +1,88 @@
+{
+  "summary": {
+    "total_customers": 50000,
+    "churned_customers": 26150,
+    "churn_rate_pct": 52.3,
+    "total_mrr": 3842280.31,
+    "mrr_at_risk": 2080939.77,
+    "avg_monthly_charge": 76.85
+  },
+  "by_contract": [
+    {
+      "contract": "Month-to-month",
+      "count": 27393,
+      "churn_rate_pct": 71.32,
+      "avg_charge": 76.73
+    },
+    {
+      "contract": "One year",
+      "count": 12633,
+      "churn_rate_pct": 39.63,
+      "avg_charge": 76.94
+    },
+    {
+      "contract": "Two year",
+      "count": 9974,
+      "churn_rate_pct": 16.1,
+      "avg_charge": 77.05
+    }
+  ],
+  "by_support_tickets": [
+    {
+      "tickets": 0,
+      "count": 26803,
+      "churn_rate_pct": 44.12
+    },
+    {
+      "tickets": 1,
+      "count": 11243,
+      "churn_rate_pct": 51.32
+    },
+    {
+      "tickets": 2,
+      "count": 5806,
+      "churn_rate_pct": 56.11
+    },
+    {
+      "tickets": 3,
+      "count": 3419,
+      "churn_rate_pct": 81.05
+    },
+    {
+      "tickets": 4,
+      "count": 1626,
+      "churn_rate_pct": 91.51
+    },
+    {
+      "tickets": 5,
+      "count": 1103,
+      "churn_rate_pct": 94.11
+    }
+  ],
+  "by_tenure_cohort": [
+    {
+      "cohort": "0-12 Months",
+      "size": 17600,
+      "churn_rate_pct": 63.15,
+      "mrr_loss": 881952.76
+    },
+    {
+      "cohort": "13-24 Months",
+      "size": 7023,
+      "churn_rate_pct": 54.98,
+      "mrr_loss": 305392.74
+    },
+    {
+      "cohort": "25-48 Months",
+      "size": 14116,
+      "churn_rate_pct": 52.67,
+      "mrr_loss": 592357.99
+    },
+    {
+      "cohort": "49+ Months",
+      "size": 11261,
+      "churn_rate_pct": 33.21,
+      "mrr_loss": 301236.28
+    }
+  ]
+}
